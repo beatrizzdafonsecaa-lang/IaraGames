@@ -1,5 +1,5 @@
 # Sprint 01 - Projeto Iara Games 
-<img width="1865" height="546" alt="Logotipo da Iara Games" src="https://github.com/user-attachments/assets/a263b993-bf35-4eff-ba59-bddf9551cd8d" />
+<img width="1865" height="546" alt="Logotipo da Iara Games" src="https://github.com/user-attachments/assets/b4be9143-e611-4871-9401-6e5d1a953818" />
 
 
 > Essa é a primeira sprint do projeto Iara Games. Uma plataforma digital para publicação e vendas de jogos criados por desenvolvedores brasileiros.
@@ -123,7 +123,7 @@
 | :---: | :---: | :---: | :---: | :---: |
 
 > ## Acesso ao Projeto
-> https://github.com/beatrizzdafonsecaa-lang/iara-games
+> https://github.com/beatrizzdafonsecaa-lang/IaraGames
 
 > ## Licença
 > Este projeto foi desenvolvido para fins acadêmicos, sem fins comerciais.
