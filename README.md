@@ -1,7 +1,6 @@
 # Sprint 01 - Projeto Iara Games 
 <img width="1865" height="546" alt="Logotipo da Iara Games" src="https://github.com/user-attachments/assets/b4be9143-e611-4871-9401-6e5d1a953818" />
 
-
 > Essa é a primeira sprint do projeto Iara Games. Uma plataforma digital para publicação e vendas de jogos criados por desenvolvedores brasileiros.
 
 > ## Sobre o Projeto
@@ -41,10 +40,11 @@
 >
 
 > # Design
+
 >
 > ## Logotipo
 <p align="center">
-  <img width="500" height="500" alt="Mockup do Logotipo" src="https://github.com/user-attachments/assets/66eab523-94bc-43e4-a827-9d811bb85efc" />
+  <img width="500" height="500" alt="Mockup do Logotipo" src="https://github.com/user-attachments/assets/32b01295-606c-4481-8c43-51a5a91514e1"  />
 </p>
 
 >O logotipo da *Iara Games* foi desenvolvido a partir da união entre *cultura brasileira e estética futurista*, criando uma identidade visual única e marcante.
@@ -119,7 +119,7 @@
 </h4>
 
 > ## Desenvolvido por
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/254772449?s=400&u=9d46acb8d37f9ebc0cfd7be378650033e373a5ad&v=4" width=115><br><sub>Beatriz Fonseca</sub>](https://github.com/beatrizzdafonsecaa-lang) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/506543f1-2b51-4db3-b6f2-882327b98efc" width=115><br><sub>Patrick Souza</sub>](https://github.com/patricksouza0331-coder) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/89053650?v=4" width=115><br><sub>Luana Silva</sub>](https://github.com/luanaodss) | [<img loading="lazy" src="https://github.com/user-attachments/assets/e38fb047-6f14-4acc-82a9-5f32cdf07871" width=115><br><sub>Edu Éder Batagelo</sub>](https://github.com/duduzin6767)  |   [<img loading="lazy" src="https://avatars.githubusercontent.com/u/265393294?v=4" width=115><br><sub>Ana Rúbia</sub>](https://github.com/annarubiaoliveira88) 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/254772449?s=400&u=9d46acb8d37f9ebc0cfd7be378650033e373a5ad&v=4" width=115><br><sub>Beatriz Fonseca</sub>](https://github.com/beatrizzdafonsecaa-lang) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/255619104?v=4" width=115><br><sub>Patrick Souza</sub>](https://github.com/patricksouza0331-coder) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/89053650?v=4" width=115><br><sub>Luana Silva</sub>](https://github.com/luanaodss) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/270194542?v=4" width=115><br><sub>Edu Éder Batagelo</sub>](https://github.com/duduzin6767)  |   [<img loading="lazy" src="https://avatars.githubusercontent.com/u/265393294?v=4" width=115><br><sub>Ana Rúbia</sub>](https://github.com/annarubiaoliveira88) 
 | :---: | :---: | :---: | :---: | :---: |
 
 > ## Acesso ao Projeto
