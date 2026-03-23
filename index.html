@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iara Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <header class="header">
+  <div class="container">
+    <div class="header-content">
+
+      <!-- LOGO -->
+      <a href="#" class="logo">
+        <img src="assets/logo/logo-iara-games.svg" alt="Iara Games">
+      </a>
+
+      <!-- MENU -->
+      <nav class="nav">
+        <a href="#">Loja</a>
+        <a href="#">Biblioteca</a>
+        <a href="#">Fórum</a>
+        <a href="#">Suporte</a>
+      </nav>
+
+      <!-- AÇÕES -->
+      <div class="header-actions">
+
+        <!-- BUSCA -->
+        <label class="search">
+          <img src="assets/icones/busca.svg" alt="">
+          <input type="text" placeholder="Buscar jogos">
+        </label>
+
+        <!-- CARRINHO -->
+        <button class="button button-secondary button-icon" aria-label="Carrinho">
+          <img src="assets/icones/carrinho.svg" alt="">
+        </button>
+
+        <!-- BOTÃO -->
+        <button class="button button-primary">
+          <span>Entrar</span>
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+</header>
+
+  <section class="banner">
+    <!-- vídeo + destaque -->
+
+    <section class="banner-carousel">
+
+  <!-- CONTROLES -->
+  <input type="radio" name="banner-slide" id="slide-1" checked>
+  <input type="radio" name="banner-slide" id="slide-2">
+  <input type="radio" name="banner-slide" id="slide-3">
+
+  <!-- SLIDES -->
+   
+  <div class="banner-slides">
+
+    <article class="banner-slide slide-1">
+      <video class="banner-video" autoplay muted loop playsinline>
+        <source src="assets/videos/trailer-entreestrelas.mp4" type="video/mp4">
+      </video>
+
+      <div class="banner-overlay"></div>
+
+      <div class="container">
+        <div class="banner-content">
+              <div class="banner-logo-wrapper">
+                <img class="banner-logo" src="assets/images/jogo-entreasestrelas.svg" alt="Cururu">
+            </div>
+         
+
+          <p class="banner-description">
+            Entre as Estrelas é um RPG leve e narrativo que acompanha duas irmãs indígenas brasileiras em uma jornada emocionante para se reencontrarem após um evento trágico que remodela sua terra natal.
+          </p>
+
+          <div class="banner-actions">
+            <span class="banner-status">Disponível em breve</span>
+
+            <button class="button button-secondary">
+                <img src="assets/icones/coracao.svg" alt="">
+              <span>Adicionar à lista de desejos</span>
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="banner-slide slide-2">
+      <video class="banner-video" autoplay muted loop playsinline>
+        <source src="assets/videos/trailer-dandara.mp4" type="video/mp4">
+      </video>
+
+      <div class="banner-overlay"></div>
+
+      <div class="container">
+        <div class="banner-content">
+
+          <div class="banner-logo-wrapper">
+            <img class="banner-logo" src="assets/images/jogo-dandara.svg" alt="Lendas">
+</div>
+          <p class="banner-description">
+           Em um universo bizarro onde os oprimidos estão à beira do esquecimento, Dandara despertou para remodelar o mundo.
+          </p>
+
+          <div class="banner-actions">
+
+            <div class="price-group">
+            <span class="discount-tag">-40%</span>
+            <del class="price-old">R$46,99</del>
+        <span class="price-current">R$18,79</span>
+</div>
+            <button class="button button-secondary">
+                <img src="assets/icones/coracao.svg" alt="">
+              <span>Adicionar à lista de desejos</span>
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="banner-slide slide-3">
+      <video class="banner-video" autoplay muted loop playsinline>
+        <source src="assets/videos/trailer-cururu.mp4" type="video/mp4">
+      </video>
+
+      <div class="banner-overlay"></div>
+
+      <div class="container">
+        <div class="banner-content">
+
+          <div class="banner-logo-wrapper">
+            <img class="banner-logo" src="assets/images/jogo-cururu.svg" alt="Cururu">
+          </div>
+
+          <p class="banner-description">
+            Em um Brasil Naturepunk, siga a jornada de Cururu, um jovem sapo que, com o poder das águas sagradas, busca purificar os biomas e explorar o folclore brasileiro em sua missão de cura e redenção.
+          </p>
+
+          <div class="banner-actions">
+            <span class="banner-status">Em desenvolvimento</span>
+            <button class="button button-secondary">
+                <img src="assets/icones/coracao.svg" alt="">
+              <span>Adicionar à lista de desejos</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- PAGINAÇÃO -->
+  <div class="banner-pagination">
+    <label for="slide-1" class="banner-dot"></label>
+    <label for="slide-2" class="banner-dot"></label>
+    <label for="slide-3" class="banner-dot"></label>
+  </div>
+</section>
+  </section>
+
+  <section class="mais-vendidos">
+    <section class="section section-trending">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Em Alta essa Semana</h2>
+      <a href="#" class="section-link">VER TODOS</a>
+    </div>
+
+    <div class="trending-wrapper">
+      <div class="cards-carousel">
+
+        <article class="trending-card">
+          <img src="assets/images/banner-naara.jpg" alt="Araní" class="trending-card-image">
+          <div class="trending-card-overlay"></div>
+
+          <div class="trending-card-content">
+            <div class="trending-card-tags">
+              <span class="game-tag">Ação</span>
+              <span class="game-tag">Plataforma</span>
+            </div>
+
+            <div class="trending-card-body">
+              <div class="trending-card-text">
+                <h3 class="trending-card-title">NaÀra: Contos de Resistência</h3>
+                <p class="trending-card-description">UMA JORNADA PELO TEMPO</p>
+              </div>
+
+              <div class="trending-card-price-block">
+                <div class="price-group">
+                  <span class="discount-tag">-40%</span>
+                  <del class="price-old">R$46,99</del>
+                </div>
+                <span class="price-current">R$18,79</span>
+              </div>
+            </div>
+
+            <button class="button button-secondary trending-card-button">
+              <span>Adicionar ao carrinho</span>
+              <img src="assets/icones/carrinho.svg" alt="">
+            </button>
+          </div>
+        </article>
+
+        <article class="trending-card">
+          <img src="assets/images/banner-lendas.png" alt="Lendas" class="trending-card-image">
+          <div class="trending-card-overlay trending-card-overlay--purple"></div>
+
+          <div class="trending-card-content">
+            <div class="trending-card-tags">
+              <span class="game-tag">Aventura</span>
+              <span class="game-tag">Indie</span>
+            </div>
+
+            <div class="trending-card-body">
+              <div class="trending-card-text">
+                <h3 class="trending-card-title">Lendas</h3>
+                <p class="trending-card-description">Entre mitos, magia e mistério</p>
+              </div>
+
+              <div class="trending-card-price-block">
+                <div class="price-group">
+                  <span class="discount-tag">-40%</span>
+                  <del class="price-old">R$46,99</del>
+                </div>
+                <span class="price-current">R$18,79</span>
+              </div>
+            </div>
+
+            <button class="button button-secondary trending-card-button">
+              <span>Adicionar ao carrinho</span>
+              <img src="assets/icones/carrinho.svg" alt="">
+            </button>
+          </div>
+        </article>
+
+        <article class="trending-card">
+          <img src="assets/images/banner-tupi.png" alt="Tupi: The Legend of Arariboia" class="trending-card-image">
+          <div class="trending-card-overlay trending-card-overlay--blue"></div>
+
+          <div class="trending-card-content">
+            <div class="trending-card-tags">
+              <span class="game-tag">Aventura</span>
+              <span class="game-tag">Ação</span>
+            </div>
+
+            <div class="trending-card-body">
+              <div class="trending-card-text">
+                <h3 class="trending-card-title">Tupi: The Legend of Arariboia</h3>
+                <p class="trending-card-description">O chamado da floresta ancestral</p>
+              </div>
+
+              <div class="trending-card-price-block">
+                <div class="price-group">
+                  <span class="discount-tag">-40%</span>
+                  <del class="price-old">R$46,99</del>
+                </div>
+                <span class="price-current">R$18,79</span>
+              </div>
+            </div>
+
+            <button class="button button-secondary trending-card-button">
+              <span>Adicionar ao carrinho</span>
+              <img src="assets/icones/carrinho.svg" alt="">
+            </button>
+          </div>
+        </article>
+
+        <article class="trending-card">
+          <img src="assets/images/banner-samsara.png" alt="Adventure of Samsara" class="trending-card-image">
+          <div class="trending-card-overlay trending-card-overlay--green"></div>
+
+          <div class="trending-card-content">
+            <div class="trending-card-tags">
+              <span class="game-tag">Puzzle</span>
+              <span class="game-tag">Aventura</span>
+            </div>
+
+            <div class="trending-card-body">
+              <div class="trending-card-text">
+                <h3 class="trending-card-title">Adventure of Samsara</h3>
+                <p class="trending-card-description">Um ciclo entre vida e renascimento</p>
+              </div>
+
+              <div class="trending-card-price-block">
+                <div class="price-group">
+                  <span class="discount-tag">-40%</span>
+                  <del class="price-old">R$46,99</del>
+                </div>
+                <span class="price-current">R$18,79</span>
+              </div>
+            </div>
+
+            <button class="button button-secondary trending-card-button">
+              <span>Adicionar ao carrinho</span>
+              <img src="assets/icones/carrinho.svg" alt="">
+            </button>
+          </div>
+        </article>
+
+      </div>
+
+      <button class="carousel-arrow" aria-label="Próximo">
+        <img src="assets/icones/chevron-right.svg" alt="">
+      </button>
+    </div>
+  </div>
+</section>
+    <!-- cards -->
+  </section>
+
+  <section class="categorias">
+    <!-- botões -->
+     <section class="section section-categories">
+  <div class="container">
+
+    <div class="section-header section-header--between">
+      <h2 class="section-title">Explore por categoria</h2>
+      <a href="#" class="section-link">VER TODOS</a>
+      </button>
+    </div>
+
+    <div class="categories-list">
+
+      <button class="category-chip active">Aventura</button>
+      <button class="category-chip">Ação</button>
+      <button class="category-chip">RPG</button>
+      <button class="category-chip">Indie</button>
+      <button class="category-chip">Plataforma</button>
+      <button class="category-chip">Narrativo</button>
+      <button class="category-chip">Estratégia</button>
+      <button class="category-chip">Casual</button>
+      <button class="category-chip">Puzzle</button>
+      <button class="category-chip">Terror</button>
+      <button class="category-chip">Corrida</button>
+
+    </div>
+
+  </div>
+</section>
+  </section>
+
+  <section class="avaliados">
+    <!-- grid -->
+
+    <section class="section section-top-rated">
+  <div class="container">
+    <div class="section-header section-header--between">
+      <h2 class="section-title">Mais Bem Avaliados</h2>
+      <a href="#" class="section-link">VER TODOS</a>
+    </div>
+
+    <div class="games-grid top-rated-grid">
+
+      <article class="rated-card">
+        <div class="rated-card-media">
+          <img src="assets/images/yaguarate-card.jpg" alt="Yaguaraté">
+
+          <div class="rating-badge">
+            <img src="assets/icones/star.svg" alt="">
+            <span>4.8</span>
+          </div>
+
+          <div class="rated-card-tags">
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Indie</span>
+          </div>
+        </div>
+
+        <div class="rated-card-body">
+          <div class="rated-card-info">
+            <div class="rated-card-text">
+              <h3 class="rated-card-title">Yaguaraté</h3>
+              <p class="rated-card-studio">Febatis Studio</p>
+            </div>
+
+            <div class="rated-card-price">
+              <div class="rated-card-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+          </div>
+
+          <button class="button button-secondary rated-card-button">
+            <span>Adicionar ao carrinho</span>
+            <img src="assets/icones/carrinho.svg" alt="">
+          </button>
+        </div>
+      </article>
+
+      <article class="rated-card">
+        <div class="rated-card-media">
+          <img src="assets/images/card-tropicalia.jpg" alt="Tropicalia">
+
+          <div class="rating-badge">
+            <img src="assets/icones/star.svg" alt="">
+            <span>4.8</span>
+          </div>
+
+          <div class="rated-card-tags">
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Indie</span>
+          </div>
+        </div>
+
+        <div class="rated-card-body">
+          <div class="rated-card-info">
+            <div class="rated-card-text">
+              <h3 class="rated-card-title">Tropicalia</h3>
+              <p class="rated-card-studio">Paulo Henrique Franqueira</p>
+            </div>
+
+            <div class="rated-card-price">
+              <div class="rated-card-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+          </div>
+
+          <button class="button button-secondary rated-card-button">
+            <span>Adicionar ao carrinho</span>
+            <img src="assets/icones/carrinho.svg" alt="">
+          </button>
+        </div>
+      </article>
+
+      <article class="rated-card">
+        <div class="rated-card-media">
+          <img src="assets/images/card-tupi.jpg" alt="Tupi: The Legend of Arariboia">
+
+          <div class="rating-badge">
+            <img src="assets/icones/star.svg" alt="">
+            <span>4.8</span>
+          </div>
+
+          <div class="rated-card-tags">
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Indie</span>
+          </div>
+        </div>
+
+        <div class="rated-card-body">
+          <div class="rated-card-info">
+            <div class="rated-card-text">
+              <h3 class="rated-card-title">Tupi: The Legend of Arariboia</h3>
+              <p class="rated-card-studio">Mito Games</p>
+            </div>
+
+            <div class="rated-card-price">
+              <div class="rated-card-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+          </div>
+
+          <button class="button button-secondary rated-card-button">
+            <span>Adicionar ao carrinho</span>
+            <img src="assets/icones/carrinho.svg" alt="">
+          </button>
+        </div>
+      </article>
+
+      <article class="rated-card">
+        <div class="rated-card-media">
+          <img src="assets/images/card-lendas.jpg" alt="Lendas">
+
+          <div class="rating-badge">
+            <img src="assets/icones/star.svg" alt="">
+            <span>4.8</span>
+          </div>
+
+          <div class="rated-card-tags">
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Indie</span>
+          </div>
+        </div>
+
+        <div class="rated-card-body">
+          <div class="rated-card-info">
+            <div class="rated-card-text">
+              <h3 class="rated-card-title">Lendas</h3>
+              <p class="rated-card-studio">KaioGx</p>
+            </div>
+
+            <div class="rated-card-price">
+              <div class="rated-card-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+          </div>
+
+          <button class="button button-secondary rated-card-button">
+            <span>Adicionar ao carrinho</span>
+            <img src="assets/icones/carrinho.svg" alt="">
+          </button>
+        </div>
+      </article>
+
+      <article class="rated-card">
+        <div class="rated-card-media">
+          <img src="assets/images/card-arani.jpeg" alt="Araní">
+
+          <div class="rating-badge">
+            <img src="assets/icones/star.svg" alt="">
+            <span>4.8</span>
+          </div>
+
+          <div class="rated-card-tags">
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Indie</span>
+          </div>
+        </div>
+
+        <div class="rated-card-body">
+          <div class="rated-card-info">
+            <div class="rated-card-text">
+              <h3 class="rated-card-title">Araní</h3>
+              <p class="rated-card-studio">Diorama Digital</p>
+            </div>
+
+            <div class="rated-card-price">
+              <div class="rated-card-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+          </div>
+
+          <button class="button button-secondary rated-card-button">
+            <span>Adicionar ao carrinho</span>
+            <img src="assets/icones/carrinho.svg" alt="">
+          </button>
+        </div>
+      </article>
+
+      <article class="rated-card">
+        <div class="rated-card-media">
+          <img src="assets/images/card-samsara.jpg" alt="Adventure Of Samsara">
+
+          <div class="rating-badge">
+            <img src="assets/icones/star.svg" alt="">
+            <span>4.8</span>
+          </div>
+
+          <div class="rated-card-tags">
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Aventura</span>
+            <span class="media-tag">Indie</span>
+          </div>
+        </div>
+
+        <div class="rated-card-body">
+          <div class="rated-card-info">
+            <div class="rated-card-text">
+              <h3 class="rated-card-title">Adventure Of Samsara</h3>
+              <p class="rated-card-studio">Ilex Games</p>
+            </div>
+
+            <div class="rated-card-price">
+              <div class="rated-card-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+          </div>
+
+          <button class="button button-secondary rated-card-button">
+            <span>Adicionar ao carrinho</span>
+            <img src="assets/icones/carrinho.svg" alt="">
+          </button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+  </section>
+
+  <section class="biblioteca">
+    <!-- lista + filtros -->
+   <section class="section section-library">
+  <div class="container">
+    <div class="library-header">
+      <h2 class="section-title">Explore todos os jogos</h2>
+      <p class="library-subtitle">
+        Encontre seu próximo favorito entre títulos brasileiros
+      </p>
+    </div>
+
+    <div class="library-layout">
+      <!-- SIDEBAR -->
+      <aside class="library-sidebar">
+        <h3 class="library-sidebar-title">Refinar Busca:</h3>
+
+        <button class="library-filter-item">
+            <img src="assets/icones/star.svg" alt="estrela">
+
+          <span>Avaliação</span>
+
+          <img src="assets/icones/chevron-right.svg" alt="seta direita">
+        </button>
+
+        <button class="library-filter-item">
+            <img src="assets/icones/control.svg" alt="controle">
+
+          <span>Categoria</span>
+
+          <img src="assets/icones/chevron-right.svg" alt="seta direita">
+        </button>
+
+        <button class="library-filter-item">
+             <img src="assets/icones/money.svg" alt="dinheiro">
+
+          <span>Preço</span>
+
+          <img src="assets/icones/chevron-right.svg" alt="seta direita">
+        </button>
+      </aside>
+
+      <!-- CONTEÚDO -->
+      <div class="library-content">
+        <div class="library-topbar">
+          <p class="library-breadcrumb">
+            Mostrando todos os jogos <span>›<b></span> Folclore Brasileiro (100 itens)</p></b>
+
+          <div class="library-sort">
+            <select class="sort-select">
+              <option>A-Z (Ordem Crescente)</option>
+              <option>Z-A (Ordem Decrescente)</option>
+              <option>Menor Preço</option>
+              <option>Maior Preço</option>
+              <option>Maior Desconto</option>
+              <option>Mais Relevantes</option>
+
+            </select>
+          </div>
+        </div>
+
+        <div class="library-list">
+          <article class="library-item">
+            <div class="library-game">
+              <img src="assets/images/banner-lendas.png" alt="Lendas" class="library-thumb">
+
+              <div class="library-game-info">
+                <h3 class="library-game-title">Lendas</h3>
+                <p class="library-game-studio">Mito Games</p>
+              </div>
+            </div>
+
+            <div class="library-price">
+              <div class="library-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+
+            <button class="button button-secondary library-button">
+              <span>Adicionar ao carrinho</span>
+              <img src="assets/icones/carrinho.svg" alt="">
+            </button>
+          </article>
+
+          <article class="library-item">
+            <div class="library-game">
+              <img src="assets/images/banner-naara.jpg" alt="Naára" class="library-thumb">
+
+              <div class="library-game-info">
+                <h3 class="library-game-title">Naára: The Legend of the Amazon</h3>
+                <p class="library-game-studio">Rebuliço Studios</p>
+              </div>
+            </div>
+
+            <div class="library-price">
+              <div class="library-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+
+            <button class="button button-secondary library-button">
+              <span>Adicionar ao carrinho</span>
+              <img src="assets/icones/carrinho.svg" alt="">
+            </button>
+          </article>
+
+          <article class="library-item">
+            <div class="library-game">
+              <img src="assets/images/banner-samsara.png" alt="Samsara" class="library-thumb">
+
+              <div class="library-game-info">
+                <h3 class="library-game-title">Adventure of Samsara</h3>
+                <p class="library-game-studio">Atari</p>
+              </div>
+            </div>
+
+            <div class="library-price">
+              <div class="library-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+
+            <button class="button button-secondary library-button">
+              <span>Adicionar ao carrinho</span>
+              <img src="assets/icones/carrinho.svg" alt="">
+            </button>
+          </article>
+
+          <article class="library-item">
+            <div class="library-game">
+              <img src="assets/images/banner-tupi.png" alt="Tupi" class="library-thumb">
+
+              <div class="library-game-info">
+                <h3 class="library-game-title">Tupi: The Legend of Arariboia</h3>
+                <p class="library-game-studio">Mito Games</p>
+              </div>
+            </div>
+
+            <div class="library-price">
+              <div class="library-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+
+            <button class="button button-secondary library-button">
+              <span>Adicionar ao carrinho</span>
+              <img src="assets/icones/carrinho.svg" alt="">
+            </button>
+          </article>
+
+          <article class="library-item">
+            <div class="library-game">
+              <img src="assets/images/banner-arani.png" alt="Araní" class="library-thumb">
+
+              <div class="library-game-info">
+                <h3 class="library-game-title">Araní</h3>
+                <p class="library-game-studio">Mito Games</p>
+              </div>
+            </div>
+
+            <div class="library-price">
+              <div class="library-old-price">
+                <span>-40%</span>
+                <del>R$46,99</del>
+              </div>
+              <span class="price-current">R$18,79</span>
+            </div>
+
+            <button class="button button-secondary library-button">
+              <span>Adicionar ao carrinho</span>
+              <img src="assets/icones/carrinho.svg" alt="">
+            </button>
+          </article>
+        </div>
+
+        <div class="library-pagination">
+          <button class="library-page-text">Anterior</button>
+          <button class="library-page-number active">1</button>
+          <button class="library-page-number">2</button>
+          <button class="library-page-number">3</button>
+          <span class="library-page-dots">...</span>
+          <button class="library-page-number">9</button>
+          <button class="library-page-text">Próximo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  </section>
+<section class="section section-cta">
+  <div class="container">
+    <div class="cta-banner">
+      <div class="cta-content">
+        <div class="cta-text">
+          <h2 class="cta-title">Descubra o universo dos jogos brasileiros</h2>
+          <p class="cta-description">
+            Explore histórias, culturas e talentos únicos.
+          </p>
+          <p class="cta-description">
+            Apoie desenvolvedores independentes e comece sua jornada.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <button class="button button-primary">
+            <span>Criar conta</span>
+          </button>
+
+          <button class="button button-secondary">
+            <span>Explorar Jogos</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer class="footer">
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo/logo-iara-games.svg" alt="Iara Games" class="footer-logo">
+        <p class="footer-brand-text">
+          A plataforma que celebra a cultura brasileira.
+        </p>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3 class="footer-title">PRODUTO</h3>
+          <a href="#">Loja</a>
+          <a href="#">Biblioteca</a>
+          <a href="#">Comunidade</a>
+          <a href="#">Suporte</a>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-title">DESENVOLVEDORES</h3>
+          <a href="#">Publicar Jogo</a>
+          <a href="#">Documentação</a>
+          <a href="#">API</a>
+          <a href="#">Ferramentas</a>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-title">EMPRESA</h3>
+          <a href="#">Sobre Nós</a>
+          <a href="#">Blog</a>
+          <a href="#">Carreiras</a>
+          <a href="#">Imprensa</a>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-title">LEGAL</h3>
+          <a href="#">Termos de Uso</a>
+          <a href="#">Privacidade</a>
+          <a href="#">Cookies</a>
+          <a href="#">Licenças</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Iara Games. Todos os direitos reservados.</p>
+
+      <div class="footer-social">
+        <a href="#">Twitter</a>
+        <a href="#">Discord</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- rodapé -->
+  </footer>
+
+</body>
+</html>
