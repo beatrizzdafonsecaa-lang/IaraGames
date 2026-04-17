@@ -1,6 +1,6 @@
 # Sprint 02 - Projeto Iara Games
 
-<img width="2000" height="1000" alt="Logo-IaraGames-atualizado" src="https://github.com/user-attachments/assets/a717e737-63db-4c6a-81d1-52983f7e5165" />
+<img width="2000" height="1000" alt="Logo-IaraGames-atualizado" src="https://github.com/user-attachments/assets/1635ad6a-d842-4e37-b8aa-532a50191d36" />
 
 >Logotipo da Iara Games atualizada
 
@@ -82,7 +82,10 @@ Os jogos brasileiros **não são rejeitados** pelos usuários, mas não aparecem
 
 ## Persona Principal
 
-**Lucas Andrade, 26 anos**
+<img width="956" height="478" alt="Persona-LucasAndrade" src="https://github.com/user-attachments/assets/3a175150-eab1-4e47-92ca-b9403fa6826b" />
+
+## **Lucas Andrade, 26 anos**
+
 Jogador frequente de PC, utiliza plataformas como Steam e possui hábito consolidado de consumo de jogos digitais.
 
 **Comportamento**
@@ -116,7 +119,7 @@ O logotipo une cultura brasileira e estética futurista. O ícone foi inspirado 
 
 A paleta foi atualizada na Sprint 02 para reforçar a brasilidade da plataforma:
 
-- 🟢 Cores Principais
+🟢 Cores Principais
 #196427
 #326419
 #2E8A3F
@@ -215,11 +218,6 @@ A Sprint 02 incorpora uma visão mais ampla do produto, considerando aspectos de
 
 ---
 
-> ## Status do projeto
-<h4 align="center"> 
-  <p>✔️  Sprint 01: concluída  ✔️</p>
-  <p>🚧 Projeto: em construção 🚧</p>
-</h4>
 
 > ## Desenvolvido por
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/254772449?s=400&u=9d46acb8d37f9ebc0cfd7be378650033e373a5ad&v=4" width=115><br><sub>Beatriz Fonseca</sub>](https://github.com/beatrizzdafonsecaa-lang) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/255619104?v=4" width=115><br><sub>Patrick Souza</sub>](https://github.com/patricksouza0331-coder) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/89053650?v=4" width=115><br><sub>Luana Silva</sub>](https://github.com/luanaodss) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/270194542?v=4" width=115><br><sub>Edu Éder Batagelo</sub>](https://github.com/duduzin6767)  |   [<img loading="lazy" src="https://avatars.githubusercontent.com/u/265393294?v=4" width=115><br><sub>Ana Rúbia</sub>](https://github.com/annarubiaoliveira88) 
