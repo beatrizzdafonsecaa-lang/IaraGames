@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iara Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="login-page-body">
+
+<header class="header">
+  <div class="container">
+    <div class="header-content">
+
+      <!-- LOGO -->
+      <a href="index.html" class="logo">
+        <img src="assets/logo/logo-iara-games.svg" alt="Iara Games">
+      </a>
+
+      <!-- MENU -->
+      <nav class="nav">
+        <a href="index.html">Loja</a>
+        <a href="em-construção.html">Biblioteca</a>
+        <a href="em-construção.html">Fórum</a>
+        <a href="em-construção.html">Suporte</a>
+      </nav>
+
+      <!-- AÇÕES -->
+      <div class="header-actions">
+
+        <!-- BUSCA -->
+        <label class="search">
+          <img src="assets/icones/busca.svg" alt="">
+          <input type="text" placeholder="Buscar jogos">
+        </label>
+
+        <!-- CARRINHO -->
+        <button class="button button-secondary button-icon" aria-label="Carrinho">
+          <img src="assets/icones/carrinho.svg" alt="">
+        </button>
+
+        <!-- BOTÃO -->
+        <button class="button button-primary">
+          <span><a href="login-page.html">Entrar</a></span>
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<main class="login-page">
+  <section class="login-section container">
+    <div class="login-wrapper">
+      <div class="login-grid">
+        <div class="login-panel">
+          <div class="login-panel-content">
+            <h1 class="login-title">Iniciar Sessão</h1>
+
+            <form class="login-form" action="#" method="post">
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seuemail@iaragames.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="senha">Senha</label>
+                <input
+                  type="password"
+                  id="senha"
+                  name="senha"
+                  required
+                />
+              </div>
+
+              <div class="login-form-row">
+                <label class="checkbox-field">
+                  <input type="checkbox" name="lembrar" />
+                  <span>Lembrar-me</span>
+                </label>
+
+                <a href="em-construcao.html" class="form-link">Esqueci a senha</a>
+              </div>
+
+              <button type="submit" class="button button-secondary login-submit">
+                <span>Entrar</span>
+              </button>
+            </form>
+
+            <div class="login-divider"></div>
+
+            <p class="login-register">
+              Sua primeira vez aqui?
+              <a href="em-construcao.html">Criar conta</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="login-banner">
+          <img
+            src="assets/images/banner-login.png"
+            alt="Ilustração da Iara em ambiente de floresta"
+            class="login-banner-image"
+          />
+
+          <!-- GRAFISMO -->
+          <img
+            src="assets/images/grafismo.svg"
+            alt="grafismo decorativo"
+            class="login-banner-graphic"/>>
+
+          <div class="login-banner-overlay"></div>
+
+          <p class="login-banner-text">
+            Vem jogar com a gente do <em>jeitinho</em> brasileiro.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+
+<footer class="footer">
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo/logo-iara-games.svg" alt="Iara Games" class="footer-logo">
+        <p class="footer-brand-text">
+          A plataforma que celebra a cultura brasileira.
+        </p>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3 class="footer-title">PRODUTO</h3>
+          <a href="#">Loja</a>
+          <a href="#">Biblioteca</a>
+          <a href="#">Comunidade</a>
+          <a href="#">Suporte</a>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-title">DESENVOLVEDORES</h3>
+          <a href="#">Publicar Jogo</a>
+          <a href="#">Documentação</a>
+          <a href="#">API</a>
+          <a href="#">Ferramentas</a>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-title">EMPRESA</h3>
+          <a href="#">Sobre Nós</a>
+          <a href="#">Blog</a>
+          <a href="#">Carreiras</a>
+          <a href="#">Imprensa</a>
+        </div>
+
+        <div class="footer-column">
+          <h3 class="footer-title">LEGAL</h3>
+          <a href="#">Termos de Uso</a>
+          <a href="#">Privacidade</a>
+          <a href="#">Cookies</a>
+          <a href="#">Licenças</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Iara Games. Todos os direitos reservados.</p>
+
+      <div class="footer-social">
+        <a href="#">Twitter</a>
+        <a href="#">Discord</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- rodapé -->
+  </footer>
