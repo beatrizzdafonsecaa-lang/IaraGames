@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iara Games — Loja</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-auth="logged">
+<header class="site-header">
+  <div class="container-fluid header-inner">
+    <a class="brand" href="index.html" aria-label="Iara Games - início">
+      <img src="assets/logo/logo-iara-games.svg" alt="Iara Games">
+    </a>
+<h1 class="visually-hidden">
+    Iara Games — Jogos brasileiros
+</h1>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a class="active" href="index.html">Loja</a>
+      <a href="em-construcao.html">Biblioteca</a>
+      <a href="em-construcao.html">Fórum</a>
+      <a href="suporte.html">Suporte</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="search-wrap">
+        <label class="search-box" for="game-search">
+          <input id="game-search" type="search" autocomplete="off" placeholder="Busque por jogos, estúdios ou categoria" aria-label="Buscar jogos, estúdios ou categoria">
+          <img src="assets/icones/busca.svg" alt="">
+        </label>
+        <div class="search-panel" id="search-panel" aria-hidden="true">
+          <p class="search-label">Pesquisas recentes...</p>
+          <button class="search-history" type="button" data-search="Tropicalia"><span>◷</span> Tropicalia</button>
+          <button class="search-history" type="button" data-search="Lendas"><span>◷</span> Lendas</button>
+          <hr>
+          <p class="search-label">Categorias Populares</p>
+          <div class="search-categories">
+            <button type="button" data-search="Aventura">Aventura</button>
+            <button type="button" data-search="Ação">Ação</button>
+            <button type="button" data-search="RPG">RPG</button>
+            <button type="button" data-search="Indie">Indie</button>
+            <button type="button" data-search="Terror">Terror</button>
+          </div>
+          <p class="search-label search-you-like">Você pode gostar...</p>
+          <button class="search-recommendation" type="button" data-search="Tupi">
+            <img src="assets/images/card-tupi.jpg" alt="">
+            <span><strong>Tupi: The Legend of Arariboia</strong><small>Mito Games</small></span>
+          </button>
+          <button class="search-recommendation" type="button" data-search="Arani">
+            <img src="assets/images/card-arani.jpeg" alt="">
+            <span><strong>Araní</strong><small>Mito Games</small></span>
+          </button>
+          <button class="search-recommendation" type="button" data-search="Swamp Up">
+            <img src="assets/images/card-samsara.jpg" alt="">
+            <span><strong>Swamp Up</strong><small>Mito Games</small></span>
+          </button>
+        </div>
+      </div>
+
+      <button class="icon-button" type="button" aria-label="Carrinho" data-cart="header">
+        <img src="assets/icones/carrinho.svg" alt="">
+      </button>
+
+      <div class="user-menu-wrap">
+        <button class="user-menu" type="button" aria-label="Menu da conta" aria-expanded="false" aria-controls="account-menu">
+          <span class="avatar">A</span>
+          <span class="user-name">Ana Beatriz</span>
+          <span class="chevron" aria-hidden="true"></span>
+        </button>
+        <div class="account-menu" id="account-menu" hidden>
+          <a href="perfil-usuario.html">Meu perfil</a>
+          <button type="button" data-logout>Sair</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" aria-label="Destaque">
+    <video class="hero-video" autoplay muted loop playsinline aria-hidden="true">
+      <source src="assets/videos/trailer-cururu.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <button class="hero-arrow hero-arrow-left" type="button" aria-label="Destaque anterior">‹</button>
+    <button class="hero-arrow hero-arrow-right" type="button" aria-label="Próximo destaque">›</button>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <img class="hero-logo" src="assets/images/jogo-cururu.svg" alt="Cururu — Whispers of the Forest">
+        <p>Em um Brasil Naturepunk, siga a jornada de Cururu, um jovem sapo que, com o poder das águas sagradas, busca purificar os biomas e explorar o folclore brasileiro em sua missão de cura e redenção.</p>
+        <div class="hero-actions">
+          <button class="outline-button wishlist-button" type="button" data-wishlist>
+            <span>Adicionar à lista de desejos</span>
+            <img src="assets/icones/coracao.svg" alt="">
+          </button>
+          <span class="hero-status">DISPONÍVEL EM BREVE</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-dots" aria-label="Navegação dos destaques"><button type="button" class="active" data-slide="0" aria-label="Destaque 1"></button><button type="button" data-slide="1" aria-label="Destaque 2"></button><button type="button" data-slide="2" aria-label="Destaque 3"></button></div>
+  </section>
+
+  <section class="section continue-section">
+    <div class="container-fluid section-container">
+      <div class="section-heading">
+        <div>
+          <h2>Continue jogando</h2>
+          <p>Você possui 4 jogos em andamento</p>
+        </div>
+        <a href="em-construcao.html">VER MINHA BIBLIOTECA</a>
+      </div>
+      <div class="continue-grid">
+        <article class="continue-card">
+          <img src="assets/images/card-lendas.jpg" alt="Lendas">
+          <div class="continue-info"><strong>Lendas</strong><small>Mito Games</small><div class="progress"><span style="width:50%"></span></div></div>
+          <span class="progress-value">50%</span>
+          <button type="button" class="green-button continue-button">RETOMAR PARTIDA <span>▶</span></button>
+        </article>
+        <article class="continue-card">
+          <img src="assets/images/card-samsara.jpg" alt="Adventure Of Samsara">
+          <div class="continue-info"><strong>Adventure Of Samsara</strong><small>Hero Games</small><div class="progress"><span style="width:65%"></span></div></div>
+          <span class="progress-value">65%</span>
+          <button type="button" class="green-button continue-button">RETOMAR PARTIDA <span>▶</span></button>
+        </article>
+        <article class="continue-card">
+          <img src="assets/images/yaguarate-card.jpg" alt="Yaguaraté">
+          <div class="continue-info"><strong>Yaguaraté</strong><small>Febatis Studio</small><div class="progress"><span style="width:75%"></span></div></div>
+          <span class="progress-value">75%</span>
+          <button type="button" class="green-button continue-button">RETOMAR PARTIDA <span>▶</span></button>
+        </article>
+        <article class="continue-card continue-card-extra">
+          <img src="assets/images/card-tupi.jpg" alt="Tupi: The Legend of Arariboia">
+          <div class="continue-info"><strong>Tupi</strong><small>Mito Games</small><div class="progress"><span style="width:30%"></span></div></div>
+          <span class="progress-value">30%</span>
+          <button type="button" class="green-button continue-button">RETOMAR PARTIDA <span>▶</span></button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section recommendations-section" id="recommendations">
+    <div class="container-fluid section-container">
+      <div class="section-heading compact">
+        <div><h2>Recomendados para você</h2><p>Baseado na sua lista de desejos e biblioteca</p></div>
+        <a href="#catalogo">VER TODOS</a>
+      </div>
+      <div class="recommendation-grid">
+        <article class="game-card" data-name="Yaguaraté" data-category="Aventura Ação Indie">
+          <div class="game-media"><img src="assets/images/yaguarate-card.jpg" alt="Yaguaraté"><span class="rating">★ 4.8</span><div class="tags"><span>Aventura</span><span>Ação</span><span>Indie</span></div></div>
+          <div class="game-body"><h3>Yaguaraté</h3><div><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button card-button" data-cart><span>Adicionar ao carrinho</span><img src="assets/icones/carrinho.svg" alt=""></button></div>
+        </article>
+        <article class="game-card" data-name="Tropicalia" data-category="Aventura Puzzle Indie">
+          <div class="game-media"><img src="assets/images/card-tropicalia.jpg" alt="Tropicalia"><span class="rating">★ 4.8</span><div class="tags"><span>Aventura</span><span>Puzzle</span><span>Indie</span></div></div>
+          <div class="game-body"><h3>Tropicalia</h3><div><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button card-button" data-cart><span>Adicionar ao carrinho</span><img src="assets/icones/carrinho.svg" alt=""></button></div>
+        </article>
+        <article class="game-card" data-name="Tupi The Legend of Arariboia" data-category="Aventura Ação Indie">
+          <div class="game-media"><img src="assets/images/card-tupi.jpg" alt="Tupi: The Legend of Arariboia"><span class="rating">★ 4.8</span><div class="tags"><span>Aventura</span><span>Ação</span><span>Indie</span></div></div>
+          <div class="game-body"><h3>Tupi: The Legend of Arariboia</h3><div><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button card-button" data-cart><span>Adicionar ao carrinho</span><img src="assets/icones/carrinho.svg" alt=""></button></div>
+        </article>
+        <article class="game-card" data-name="Lendas" data-category="Aventura Ritmo Indie">
+          <div class="game-media"><img src="assets/images/card-lendas.jpg" alt="Lendas"><span class="rating">★ 4.8</span><div class="tags"><span>Aventura</span><span>Ação</span><span>Indie</span></div></div>
+          <div class="game-body"><h3>Lendas</h3><div><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button card-button" data-cart><span>Adicionar ao carrinho</span><img src="assets/icones/carrinho.svg" alt=""></button></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section trending-section">
+    <div class="container-fluid section-container">
+      <div class="section-heading"><h2>Top 3 em alta essa semana</h2><a href="#catalogo">VER TODOS</a></div>
+      <div class="top-five-grid">
+        <article class="ranked-game"><div class="rank-number">1</div><div class="rank-card"><img src="assets/images/banner-arani.jpg" alt="Araní"><div class="rank-overlay"></div><div class="rank-content"><h3>Araní</h3><p>UMA JORNADA PELO TEMPO</p><div><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button discover-button" type="button" data-discover="Araní"><span>DESCOBRIR JOGO</span><img src="assets/icones/control.svg" alt=""></button></div></div></article>
+        <article class="ranked-game"><div class="rank-number">2</div><div class="rank-card"><img src="assets/images/banner-lendas.png" alt="Lendas"><div class="rank-overlay purple"></div><div class="rank-content"><h3>Lendas</h3><p>MERGULHE EM UM MUNDO DE RITMO</p><div><del>R$89,99</del><strong>R$48,99</strong></div><button class="outline-button discover-button" type="button" data-discover="Lendas"><span>DESCOBRIR JOGO</span><img src="assets/icones/control.svg" alt=""></button></div></div></article>
+        <article class="ranked-game"><div class="rank-number">3</div><div class="rank-card"><img src="assets/images/banner-tupi.png" alt="Tupi: The Legend of Arariboia"><div class="rank-overlay blue"></div><div class="rank-content"><h3>Tupi: The Legend of Arariboia</h3><p>COMBATA A ESCURIDÃO DA FLORESTA</p><div><del>R$64,99</del><strong>R$38,99</strong></div><button class="outline-button discover-button" type="button" data-discover="Tupi"><span>DESCOBRIR JOGO</span><img src="assets/icones/control.svg" alt=""></button></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section catalog-section" id="catalogo">
+    <div class="container-fluid section-container">
+      <div class="catalog-heading"><h2>Explore todos os jogos</h2><p>Encontre seu próximo favorito entre títulos brasileiros</p></div>
+      <div class="category-row" role="group" aria-label="Filtrar por categoria">
+        <button class="category-chip active" data-category="Aventura">Aventura</button><button class="category-chip" data-category="Ação">Ação</button><button class="category-chip" data-category="RPG">RPG</button><button class="category-chip" data-category="Indie">Indie</button><button class="category-chip" data-category="Plataforma">Plataforma</button><button class="category-chip" data-category="Narrativo">Narrativo</button><button class="category-chip" data-category="Estratégia">Estratégia</button><button class="category-chip" data-category="Casual">Casual</button><button class="category-chip" data-category="Puzzle">Puzzle</button><button class="category-chip" data-category="Terror">Terror</button><button class="category-chip" data-category="Corrida">Corrida</button>
+      </div>
+      <div class="catalog-layout">
+        <aside class="filter-box"><strong>Filtrar por:</strong><button type="button">☆ Avaliação <span>›</span></button><button type="button">☆ Categoria <span>›</span></button><button type="button">$ Preço <span>›</span></button></aside>
+        <div class="catalog-results">
+          <div class="catalog-toolbar"><span>Mostrando todos os jogos <b>›</b> <span id="active-filter">Aventura</span></span><select aria-label="Ordenar jogos"><option>Melhor Avaliados</option><option>Mais Recentes</option><option>Menor Preço</option></select></div>
+          <div class="catalog-list" id="catalog-list">
+            <article class="catalog-item" data-name="Lendas" data-category="Aventura Ação Indie"><img src="assets/images/card-lendas.jpg" alt="Lendas"><div class="catalog-info"><strong>Lendas</strong><small>Mito Games</small></div><div class="catalog-price"><span>-40%</span><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button catalog-button" data-cart><span>Adicionar ao carrinho</span><img src="assets/icones/carrinho.svg" alt=""></button></article>
+            <article class="catalog-item" data-name="Swamp Up" data-category="Aventura Indie Plataforma"><img src="assets/images/card-samsara.jpg" alt="Swamp Up"><div class="catalog-info"><strong>Swamp Up</strong><small>Mito Games</small></div><div class="catalog-price"><span>-40%</span><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button catalog-button" data-cart><span>Adicionar ao carrinho</span><img src="assets/icones/carrinho.svg" alt=""></button></article>
+            <article class="catalog-item" data-name="Tropicalia" data-category="Aventura Puzzle Indie"><img src="assets/images/card-tropicalia.jpg" alt="Tropicalia"><div class="catalog-info"><strong>Tropicalia</strong><small>Mito Games</small></div><div class="catalog-price"><span>-40%</span><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button catalog-button" data-cart><span>Adicionar ao carrinho</span><img src="assets/icones/carrinho.svg" alt=""></button></article>
+            <article class="catalog-item" data-name="Tupi The Legend of Arariboia" data-category="Aventura Ação Indie"><img src="assets/images/card-tupi.jpg" alt="Tupi: The Legend of Arariboia"><div class="catalog-info"><strong>Tupi: The Legend of Arariboia</strong><small>Mito Games</small></div><div class="catalog-price"><span>-40%</span><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button catalog-button" data-cart><span>Adicionar ao carrinho</span><img src="assets/icones/carrinho.svg" alt=""></button></article>
+            <article class="catalog-item" data-name="Araní" data-category="Aventura Ação Indie"><img src="assets/images/card-arani.jpeg" alt="Araní"><div class="catalog-info"><strong>Araní</strong><small>Mito Games</small></div><div class="catalog-price"><span>-40%</span><del>R$46,99</del><strong>R$18,79</strong></div><button class="outline-button catalog-button" data-cart><span>Adicionar ao carrinho</span><img src="assets/icones/carrinho.svg" alt=""></button></article>
+          </div>
+          <p class="no-results" id="no-results">Nenhum jogo encontrado.</p>
+          <div class="pagination"><span>Anterior</span><button>1</button><button>2</button><button>3</button><span>...</span><button>9</button><span>Próximo</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container-fluid section-container"><div class="cta"><div><h2>Menos procura, mais diversão</h2><p>Retome seus jogos, descubra novas experiências e encontre rapidamente o que combina com você.</p></div><div class="cta-actions"><a class="green-button" href="em-construcao.html">Continuar Jogando</a><a class="outline-button" href="#recommendations">Explorar Recomendações</a></div></div></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container-fluid section-container footer-main">
+    <div class="footer-brand"><img src="assets/logo/logo-iara-games.svg" alt="Iara Games"><p>A plataforma que celebra a<br>cultura brasileira. 🇧🇷</p></div>
+    <div><h3>PRODUTO</h3><a href="#">Loja</a><a href="em-construcao.html">Biblioteca</a><a href="em-construcao.html">Comunidade</a><a href="suporte.html">Suporte</a></div>
+    <div><h3>DESENVOLVEDORES</h3><a href="#">Publicar Jogo</a><a href="#">Documentação</a><a href="#">API</a><a href="#">Ferramentas</a></div>
+    <div><h3>EMPRESA</h3><a href="#">Sobre Nós</a><a href="#">Blog</a><a href="#">Carreiras</a><a href="#">Imprensa</a></div>
+    <div><h3>LEGAL</h3><a href="#">Termos de Uso</a><a href="#">Privacidade</a><a href="#">Cookies</a><a href="#">Licenças</a></div>
+  </div>
+  <div class="container-fluid section-container footer-bottom"><span>© 2026 Iara Games. Todos os direitos reservados.</span><span>Twitter &nbsp;&nbsp; Discord &nbsp;&nbsp; Instagram</span></div>
+</footer>
+
+<div class="toast-container" id="toast-container" aria-live="polite" aria-atomic="true"></div>
+<script src="script.js"></script>
+</body>
+</html>
